@@ -4,7 +4,6 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-// Define the custom icon URL relative to the public directory
 const trainIconUrl = '/train.png'; // Path relative to public directory
 
 const Home = () => {
